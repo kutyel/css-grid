@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  border: 10px solid var(--yellow);
+  grid-template-columns: repeat(auto-fill, 150px);
+}
+
+.item4 {
+  grid-column-end: -1;
+}
