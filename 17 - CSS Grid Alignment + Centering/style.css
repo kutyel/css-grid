@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  height: 500px;
+  border: 10px solid var(--yellow);
+  grid-template-columns: repeat(5, 100px);
+  /* justify-items: center;
+  align-items: center; */
+  place-items: stretch stretch;
+  place-content: space-around space-around;
+}
+
+.itm {
+  background: white;
+}
+
+.itm5 {
+  justify-self: center;
+  align-self: start;
+}
+
+/*
+  justify-items:
+  align-items:
+
+  justify-content:
+  align-content:
+
+  align-self:
+  justify-self:
+
+  justify-* is row axis
+  align-* is column axis
+*/
