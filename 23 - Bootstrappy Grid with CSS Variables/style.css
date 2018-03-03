@@ -1,0 +1,13 @@
+:root {
+  --span: 1;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(var(--cols, 12), minmax(0, 1fr));
+}
+
+.item {
+  grid-column: span var(--span);
+}
