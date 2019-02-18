@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "lodash": "^4.17.11",
     "run-script-os": "^1.0.2"
   }
 }
